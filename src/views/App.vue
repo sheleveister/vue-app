@@ -1,6 +1,18 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
+
+    <header>
+      <div class="header-wrapper">
+        <img src="../assets/logo.png" alt="Logo" class="logo">
+
+        <nav>
+          <router-link to="/brand">Brand</router-link>
+          <router-link to="/projects">Projects</router-link>
+          <router-link to="/contacts">Contacts</router-link>
+        </nav>
+      </div>
+    </header>
   </div>
 </template>
 
